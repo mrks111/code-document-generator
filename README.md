@@ -1,11 +1,15 @@
 # Code README Generator Documentation
 
-## Overview
+This utility automates documentation for Python projects. Key features include:
 
-  Based on the provided summaries, the project is a software utility designed to assist in the documentation and understanding of a Python-based software project. The tool has several features aimed at making the documentation process easier, faster, and more consistent. 
-  It can perform a directory-level analysis of Python projects, identify main scripts, calculate token counts for cost estimation purposes, extract dependencies or requirements from Python files, and generate detailed summaries of both individual files and the whole project. 
-  Finally, it also has the capability to structure a comprehensive README file, including project overview, features, installation instructions, usage guide, dependencies, and file descriptions. The generated README is created following a particular template provided in one of the code files, which makes sure the structure is consistent across different projects.
-  The overall workflow of the project starts from interfacing with the user for directory selection, then analyzing the files one by one, and finally generating a comprehensive README file. It aims to provide an automated way to analyze and understand Python-based projects quickly.
+  - Directory-level analysis
+  - Main script identification
+  - Token counting for cost estimation
+  - Dependency extraction
+  - File and project summarization
+  - README generation with consistent structure
+
+The tool streamlines project analysis and documentation, making it easier for developers to understand and share their Python projects on GitHub.
   
 ## Features
 
