@@ -10,6 +10,7 @@
 ## Features
 
 1. **Purpose**:
+
      The code in the file is designed to analyze a Python project at a directory level, identify main scripts, calculate token counts for cost estimation, extract requirements, leverage OpenAI for automated Python code analysis, generate summaries of individual files and the entire project, and finally structure a comprehensive README file with all gathered information.
 
 2. **Key Features**:
@@ -28,31 +29,22 @@
   - `tqdm`
   - `tiktoken`
   - `openai`
-- 1. **Purpose**: The code in this file contains string literals that are planned prompts for developers to document their projects.
-- -  Gives a template to describe the file for analysis
-- -  Provides a project explanation guide
-- -  Offers a structure for README.md
-- 3. **Dependencies**: 
-  The code does relies on a few external libraries.
 
 ## Installation
-    To install the dependencies for the tool, run:
 
-    ```bash
-pip install -r requirements.txt
-    ```
+To install the dependencies for the tool, run:
+    
+    pip install -r requirements.txt
 
 ## How to Use
-    1. Navigate to the project directory:
+
+  1. Navigate to the project directory:
+     
     git clone <github-download-link>
     cd <project-directory>
-    2. Ensure all dependencies are installed.
-    3. Run the main script:
-    python documentor.py
 
-## Dependencies
-  The project uses the following dependencies (found in `requirements.txt`):
-    - hashlib
-    - os
-    - pkgutil
-    - prompts
+  2. Ensure all dependencies are installed
+
+  4. Run the main script:
+
+    python documentor.py
